@@ -1,0 +1,30 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+h1 {
+  color: #ce2323;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  margin-left: 10px;
+  border: 1px solid #54db6b;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #f375eb;
+}
+
+div[style*="padding: 30px"] {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
